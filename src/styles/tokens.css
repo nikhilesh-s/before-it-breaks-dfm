@@ -1,0 +1,40 @@
+:root {
+  /* Brand colors */
+  --color-dark-green:  #5D8E67;
+  --color-off-white:   #F9F5ED;
+  --color-soft-green:  #9FD89C;
+  --color-yellow:      #FEE188;
+  --color-peach:       #FFD1BD;
+  --color-blue:        #B7E3FF;
+  --color-ink:         #3a3a3a;
+
+  /* Health-bar arc colors (aliases for clarity in component code) */
+  --color-arc-social:   var(--color-blue);
+  --color-arc-mental:   var(--color-peach);
+  --color-arc-physical: var(--color-yellow);
+
+  /* Typography */
+  --font-heading:  'Comfortaa', sans-serif;
+  --font-body:     'Comfortaa', sans-serif;
+  --font-emphasis: 'Comfortaa', sans-serif;
+
+  /* Spacing scale */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+
+  /* Border radius */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-soft: 0 2px 12px rgba(93, 142, 103, 0.12);
+  --shadow-card: 0 4px 24px rgba(58, 58, 58, 0.08);
+}

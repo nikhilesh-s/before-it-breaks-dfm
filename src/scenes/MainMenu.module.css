@@ -1,0 +1,118 @@
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* ── Splash screen ── */
+.splash {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  min-height: 340px;
+}
+
+/* ── Enter prompt ── */
+.enterBtn {
+  background: transparent;
+  border: none;
+  font-family: 'Comfortaa', sans-serif;
+  font-style: italic;
+  font-size: 15px;
+  color: rgba(93, 142, 103, 0.5);
+  cursor: pointer;
+  padding: 4px 0;
+  letter-spacing: 0.04em;
+}
+
+.enterBtn:hover {
+  color: #5D8E67;
+}
+
+/* ── Main landing page ── */
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+  width: 100%;
+  animation: fadeIn 500ms ease both;
+}
+
+.titleFallback {
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 38px;
+  font-weight: 700;
+  color: #5D8E67;
+  text-align: center;
+}
+
+.titleImg {
+  display: block;
+  margin: 0 auto;
+  width: 200%;
+  max-width: 1100px;
+  height: auto;
+  object-fit: contain;
+}
+
+/* ── Health ring preview ── */
+.preview {
+  user-select: none;
+  margin-bottom: 12px;
+}
+
+/* ── Description ── */
+.description {
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 21px;
+  line-height: 1.7;
+  color: #3a3a3a;
+  text-align: center;
+  max-width: 420px;
+  margin-bottom: 32px;
+}
+
+/* ── Start button ── */
+.startBtn {
+  background: transparent;
+  border: 2px solid #5D8E67;
+  border-radius: 50px;
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 20px;
+  color: #5D8E67;
+  padding: 12px 36px;
+  cursor: pointer;
+  transition: background 200ms ease, transform 200ms ease;
+  margin-bottom: 16px;
+}
+
+.startBtn:hover {
+  background: #F0F7EE;
+  transform: translateY(-2px);
+}
+
+/* ── Note ── */
+.note {
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 16px;
+  color: rgba(93, 142, 103, 0.5);
+  text-align: center;
+}
+
+/* ── Mobile ── */
+@media (max-width: 480px) {
+  .titleImg {
+    width: 160%;
+    max-width: 700px;
+  }
+
+  .description {
+    font-size: 18px;
+  }
+
+  .startBtn {
+    font-size: 18px;
+  }
+}

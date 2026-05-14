@@ -1,0 +1,121 @@
+.page {
+  min-height: 100vh;
+  background: #F9F5ED;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  padding: 40px 24px;
+}
+
+.title {
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 18px;
+  color: #5D8E67;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+/* ── Stat controls ── */
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.row {
+  display: flex;
+  gap: 12px;
+}
+
+.btn {
+  background: transparent;
+  border: 1.5px solid var(--accent, #5D8E67);
+  border-radius: 50px;
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 14px;
+  color: #5D8E67;
+  padding: 8px 20px;
+  cursor: pointer;
+  transition: background 150ms ease;
+  white-space: nowrap;
+}
+
+.btn:hover:not(:disabled) {
+  background: #F0F7EE;
+}
+
+.btn:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+.btnActive {
+  background: #F0F7EE;
+  border-color: #5D8E67;
+}
+
+/* ── Debug toolbar ── */
+.debugBar {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* ── Rotation panel ── */
+.rotationPanel {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background: white;
+  border: 1px solid rgba(93, 142, 103, 0.2);
+  border-radius: 12px;
+  padding: 20px 24px;
+  min-width: 320px;
+}
+
+.rotationNote {
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 11px;
+  color: #888;
+  text-align: center;
+}
+
+.rotationRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.rotationRow input[type='range'] {
+  flex: 1;
+  accent-color: #5D8E67;
+}
+
+.rotationValue {
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 12px;
+  color: #5D8E67;
+  min-width: 36px;
+  text-align: right;
+}
+
+.btnSmall {
+  background: transparent;
+  border: 1px solid #5D8E67;
+  border-radius: 20px;
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 11px;
+  color: #5D8E67;
+  padding: 3px 10px;
+  cursor: pointer;
+}
+
+.btnSmall:hover {
+  background: #F0F7EE;
+}

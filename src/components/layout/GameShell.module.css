@@ -1,0 +1,32 @@
+.wrapper {
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.card {
+  background: #F9F5ED;
+  border: 2px solid #5D8E67;
+  border-radius: 28px;
+  padding: 40px 36px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 4px 32px rgba(93, 142, 103, 0.10);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+@media (max-width: 480px) {
+  .card {
+    padding: 28px 20px;
+    border-radius: 20px;
+  }
+}

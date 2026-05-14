@@ -1,0 +1,15 @@
+<!-- PLACEHOLDER: logo-scissors.svg
+     Description: DFM logo — scissors variation
+     Usage:       Replace this file with the final SVG asset.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" rx="12" fill="#F9F5ED" stroke="#5D8E67" stroke-width="2"/>
+  <text x="100" y="100" text-anchor="middle" dominant-baseline="middle"
+        font-family="sans-serif" font-size="12" fill="#5D8E67">
+    logo-scissors
+  </text>
+  <text x="100" y="120" text-anchor="middle" dominant-baseline="middle"
+        font-family="sans-serif" font-size="10" fill="#9FD89C">
+    scissors variation
+  </text>
+</svg>

@@ -1,0 +1,80 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+  width: 100%;
+}
+
+.weekLabel {
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #5D8E67;
+  opacity: 0.8;
+  align-self: flex-start;
+}
+
+.prompt {
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 21px;
+  line-height: 1.7;
+  color: #3a3a3a;
+  text-align: center;
+  max-width: 420px;
+}
+
+.rule {
+  border: none;
+  border-top: 1px solid rgba(93, 142, 103, 0.15);
+  width: 60%;
+  margin: 0 auto;
+}
+
+.statRow {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.statBadge {
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 15px;
+  color: #3a3a3a;
+  border-radius: 50px;
+  padding: 5px 14px;
+}
+
+.reflectionPrompt {
+  font-family: 'Comfortaa', sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  color: rgba(93, 142, 103, 0.65);
+  text-align: center;
+}
+
+.btn {
+  background: transparent;
+  border: 1.5px solid #5D8E67;
+  border-radius: 50px;
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 19px;
+  color: #5D8E67;
+  padding: 10px 32px;
+  cursor: pointer;
+  transition: background 200ms ease, transform 200ms ease;
+}
+
+.btn:hover {
+  background: #F0F7EE;
+  transform: translateY(-2px);
+}
+
+.footer {
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 14px;
+  color: rgba(93, 142, 103, 0.35);
+  text-align: center;
+}

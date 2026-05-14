@@ -1,0 +1,16 @@
+<!-- PLACEHOLDER: title-before-it-breaks.svg
+     Description: Game title lockup — "Before It Breaks" lettering/graphic
+     Usage:       Replace this file with the final SVG title asset.
+     Dimensions:  Suggested wide-aspect, e.g. 600x200.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" width="600" height="200">
+  <rect width="600" height="200" rx="12" fill="#F9F5ED" stroke="#5D8E67" stroke-width="2"/>
+  <text x="300" y="90" text-anchor="middle" dominant-baseline="middle"
+        font-family="sans-serif" font-size="18" font-weight="bold" fill="#5D8E67">
+    title-before-it-breaks.svg
+  </text>
+  <text x="300" y="120" text-anchor="middle" dominant-baseline="middle"
+        font-family="sans-serif" font-size="13" fill="#3a3a3a">
+    Game title graphic — replace with final lettering
+  </text>
+</svg>
